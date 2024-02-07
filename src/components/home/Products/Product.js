@@ -1,7 +1,7 @@
 import React from "react";
 import { BsSuitHeartFill } from "react-icons/bs";
 import { GiReturnArrow } from "react-icons/gi";
-import { FaShoppingCart, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaShoppingCart, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineLabelImportant } from "react-icons/md";
 import Image from "../../designLayouts/Image";
 import Badge from "./Badge";
@@ -19,11 +19,22 @@ const Product = (props) => {
 
   const navigate = useNavigate();
   const productItem = props;
+
   const handleCompare = () => {
-    const message = "Hello I want to ";
+    const message = `Hello! I want to buy this product whose name is "${props.productName}"`;
     const whatsappUrl = `https://wa.me/+918931097680/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
+  
+
+  const handleInstagramMessage = () => {
+    const message = `Hello! I want to buy this product whose name is "${props.productName}"`;
+    const instagramUrl = `https://www.instagram.com/hariom.soni.7549/inbox/?message=${encodeURIComponent(message)}`;
+    window.location.href = instagramUrl;
+  };
+  
+  
+  
   const handleProductDetails = () => {
     navigate(`/product/${rootId}`, {
       state: {
@@ -31,6 +42,7 @@ const Product = (props) => {
       },
     });
   };
+
   return (
     <div className="w-full relative group">
       <div className="max-w-80 max-h-80 relative overflow-y-hidden ">
@@ -42,16 +54,15 @@ const Product = (props) => {
         </div>
         <div className="w-full h-32 absolute bg-white -bottom-[130px] group-hover:bottom-0 duration-700">
           <ul className="w-full h-full flex flex-col items-end justify-center gap-2 font-titleFont px-2 border-l border-r">
-          <li
-  onClick={handleCompare}
-  className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full"
->
-  Message on WhatsApp 
-<span>
-  <FaWhatsapp />
-</span>
-
-</li>
+            <li
+              onClick={handleCompare}
+              className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full"
+            >
+              Message on WhatsApp
+              <span>
+                <FaWhatsapp />
+              </span>
+            </li>
             <li
               onClick={() =>
                 dispatch(
@@ -82,10 +93,13 @@ const Product = (props) => {
                 <MdOutlineLabelImportant />
               </span>
             </li>
-            <li className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full">
-              Add to Wish List
+            <li 
+              onClick={handleInstagramMessage}
+              className="text-[#767676] hover:text-primeColor text-sm font-normal border-b-[1px] border-b-gray-200 hover:border-b-primeColor flex items-center justify-end gap-2 hover:cursor-pointer pb-1 duration-300 w-full"
+            >
+              Message On Insta
               <span>
-                <BsSuitHeartFill />
+                <FaInstagram />
               </span>
             </li>
           </ul>

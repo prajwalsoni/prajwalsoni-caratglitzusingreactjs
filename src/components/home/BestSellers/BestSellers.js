@@ -21,6 +21,7 @@ const BestSellers = () => {
           color="Blank and White"
           badge={true}
           des="prajwalsoni"
+          
         />
         <Product
           _id="1012"

@@ -39,7 +39,7 @@ const Contact = () => {
       .toLowerCase()
       .match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
   };
- 
+  // ================= Email Validation End here ===============
 
   const handlePost = (e) => {
     e.preventDefault();
@@ -71,9 +71,17 @@ const Contact = () => {
       ) : (
         <form className="pb-20">
           <h1 className="font-titleFont font-semibold text-3xl">
-            Fill up a Form
-          </h1>
-          <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
+  Fill up a Form{" "}
+  <a
+    href="https://docs.google.com/forms/d/e/your_form_id/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    (Google Form)
+  </a>
+</h1>
+
+          {/* <div className="w-[500px] h-auto py-6 flex flex-col gap-6">
             <div>
               <p className="text-base font-titleFont font-semibold px-2">
                 Name
@@ -136,7 +144,7 @@ const Contact = () => {
             >
               Post
             </button>
-          </div>
+          </div> */}
         </form>
       )}
     </div>
