@@ -21,7 +21,7 @@ const persistConfig = {
 const persistedReducer = persistReducer(persistConfig, soniReducer);
 
 export const store = configureStore({
-  reducer: { orebiReducer: persistedReducer },
+  reducer: { soniReducer: persistedReducer },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
