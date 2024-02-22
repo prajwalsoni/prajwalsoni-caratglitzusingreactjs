@@ -27,6 +27,7 @@ const Banner = () => {
           top: "50%",
           left: "7%",
           transform: "translateY(-50%)",
+          color: "white", // Change dot color to white
         }}
       >
         <ul style={{ margin: "0px" }}> {dots} </ul>
@@ -42,6 +43,7 @@ const Banner = () => {
                 borderRight: "3px #262626 solid",
                 padding: "8px 0",
                 cursor: "pointer",
+                backgroundColor: "red", // Change dot background color to red
               }
             : {
                 width: "30px",
@@ -49,6 +51,7 @@ const Banner = () => {
                 borderRight: "3px white solid",
                 padding: "8px 0",
                 cursor: "pointer",
+                backgroundColor: "red", // Change dot background color to red
               }
         }
       >
@@ -67,6 +70,7 @@ const Banner = () => {
                 top: "50%",
                 left: "2%",
                 transform: "translateY(-50%)",
+                color: "white", // Change dot color to white
               }}
             >
               <ul style={{ margin: "0px" }}> {dots} </ul>
@@ -82,6 +86,7 @@ const Banner = () => {
                       borderRight: "3px #262626 solid",
                       cursor: "pointer",
                       fontSize: "12px",
+                      backgroundColor: "red", // Change dot background color to red
                     }
                   : {
                       width: "25px",
@@ -89,6 +94,7 @@ const Banner = () => {
                       borderRight: "3px white solid",
                       cursor: "pointer",
                       fontSize: "12px",
+                      backgroundColor: "red", // Change dot background color to red
                     }
               }
             >
@@ -100,25 +106,26 @@ const Banner = () => {
     ],
   };
   return (
-    <div className="w-full bg-white">
-      <Slider {...settings}>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgOne} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgTwo} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgThree} />
-          </div>
-        </Link>
-      </Slider>
-    </div>
+<div className="w-full bg-red">
+  <Slider {...settings}>
+    <Link to="/offer">
+      <div>
+        <Image imgSrc={bannerImgOne} />
+      </div>
+    </Link>
+    <Link to="/offer">
+      <div>
+        <Image imgSrc={bannerImgTwo} />
+      </div>
+    </Link>
+    <Link to="/offer">
+      <div>
+        <Image imgSrc={bannerImgThree} />
+      </div>
+    </Link>
+  </Slider>
+</div>
+
   );
 };
 

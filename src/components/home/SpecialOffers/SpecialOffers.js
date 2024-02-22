@@ -6,6 +6,7 @@ import {
   spfTwo,
   spfThree,
   spfFour,
+  download
 } from "../../../assets/images/index";
 
 const SpecialOffers = () => {
@@ -22,6 +23,16 @@ const SpecialOffers = () => {
           badge={true}
           des="prajwalsoni"
         />
+        <Product
+             _id= "2011"
+             img= {download}
+             productName= "tolu molu"
+             price= "350.00"
+             color= "Blank and White"
+             badge= {true}
+             des= "prajwalsoni"
+        />
+        
         <Product
           _id="1102"
           img={spfTwo}

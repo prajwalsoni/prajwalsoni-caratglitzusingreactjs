@@ -11,9 +11,10 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  download
 } from "../assets/images/index";
 
-// =================== NavBarList Start here ====================
+
 export const navBarList = [
   {
     _id: 1001,
@@ -49,6 +50,15 @@ export const SplOfferData = [
     img: spfOne,
     productName: "Cap for Boys",
     price: "35.00",
+    color: "Blank and White",
+    badge: true,
+    des: "prajwalsoni",
+  },
+  {
+    _id: "2011",
+    img: download,
+    productName: "Tolu Molu",
+    price: "350.00",
     color: "Blank and White",
     badge: true,
     des: "prajwalsoni",

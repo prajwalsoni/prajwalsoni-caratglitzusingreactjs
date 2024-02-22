@@ -10,6 +10,7 @@ import saleImgThree from "./sale/saleImgThree.webp";
 
 import newArrOne from "./products/newArrival/newArrOne.webp";
 import newArrTwo from "./products/newArrival/newArrTwo.webp";
+import download from "./products/newArrival/download.webp";
 import newArrThree from "./products/newArrival/newArrThree.webp";
 import newArrFour from "./products/newArrival/newArrFour.webp";
 
@@ -40,28 +41,28 @@ export {
   saleImgOne,
   saleImgTwo,
   saleImgThree,
-  //Products start here 
-  // New Arrivals
+ 
   newArrOne,
   newArrTwo,
   newArrThree,
   newArrFour,
+  download,
 
-  // Best Sellers
+  
   bestSellerOne,
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
 
-  // Sprcial Offers
+  
   spfOne,
   spfTwo,
   spfThree,
   spfFour,
 
-  // Year Product
+  
   productOfTheYear,
-  // Products End here
+ 
   paymentCard,
   emptyCart,
 };

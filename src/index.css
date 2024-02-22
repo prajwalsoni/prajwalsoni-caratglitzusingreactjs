@@ -11,20 +11,33 @@
   .headerSedenavLi {
     @apply hover:underline underline-offset-2 cursor-pointer text-gray-300 hover:text-white;
   }
+
+  /* Change color to yellow for Contact */
+  .headerSedenavLi:nth-of-type(4) a {
+    color: red !important; /* Add !important to override any conflicting styles */
+  }
 }
 
 /* ============= NavLink active Start here ============== */
 nav .active li {
-  color: black;
+  color: red; /* Set the default color to red */
   font-weight: 600;
-  text-decoration: 1px underline black;
+  text-decoration: underline black;
+}
+
+nav .active li:hover { /* Change color to red on hover */
+  color: black;
+}
+
+nav .active li:nth-child(4) { /* Targeting the fourth child, which corresponds to the "Contact" link */
+  color: yellow; /* Changing the color to yellow */
 }
 
 @media screen and (max-width: 665px) {
   nav .active li {
-    color: white;
+    color: red;
     font-weight: 600;
-    text-decoration: 1px underline white;
+    text-decoration: 1px underline red;
   }
 }
 

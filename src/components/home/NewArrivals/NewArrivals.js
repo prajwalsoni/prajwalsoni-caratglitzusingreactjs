@@ -7,6 +7,7 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  download
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -46,11 +47,12 @@ const NewArrivals = () => {
       },
     ],
   };
+
   return (
     <div className="w-full pb-16">
       <Heading heading="New Arrivals" />
       <Slider {...settings}>
-      <div className="px-2">
+        <div className="px-2">
           <Product
             _id="100001"
             img={newArrOne}
@@ -64,13 +66,13 @@ const NewArrivals = () => {
 
         <div className="px-2">
           <Product
-            _id="100002"
-            img={newArrTwo}
-            productName="Smart Watch"
-            price="250.00"
-            color="Black"
-            badge={true}
-            des="prajwal"
+            _id="1009"
+            img= {download}
+            productName= "Round Table Clock"
+            price="44.00"
+            color= "Black"
+            badge = {true}
+            des= "prajwalsoni"
           />
         </div>
         <div className="px-2">
