@@ -32,8 +32,8 @@ const ProductInfo = ({ productInfo }) => {
         Add to Cart
       </button>
       <p className="font-normal text-sm">
-        <span className="text-base font-medium"> Categories:</span> Spring
-        Collections, Streetwear, Women Tags: featured SKU: N/A
+        <span className="text-base font-medium"> Categories:</span> Rings
+        Bangles , Earrings and Nosepins 
       </p>
     </div>
   );

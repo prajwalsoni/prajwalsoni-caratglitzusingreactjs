@@ -42,8 +42,7 @@ export const navBarList = [
     link: "/journal",
   },
 ];
-// =================== NavBarList End here ======================
-// =================== Special Offer data Start here ============
+
 export const SplOfferData = [
   {
     _id: "201",
@@ -512,4 +511,4 @@ export const paginationItems = [
    
   },
 ];
-// =================== PaginationItems End here =================
+
