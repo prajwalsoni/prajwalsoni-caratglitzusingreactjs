@@ -31,10 +31,14 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about Soni Shop" />
+          <FooterListTitle title=" More about Caratglitz" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-             prajwalsoni   prajwalsoni           prajwalsoni          prajwalsoni
+            HEAD OFFICE   
+            Level 10, 18-20
+            Hindustan Times House
+            KG Marg, Connaught Place
+            New Delhi, India -110001
             </p>
             <ul className="flex items-center gap-2">
               <a
@@ -77,22 +81,22 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <FooterListTitle title="Shop" />
+          <FooterListTitle title="Our Branches" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Accesories
+              Delhi
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Clothes
+              Dubai 
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Electronics
+              Harare
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Home appliances
+              London
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              New Arrivals
+              New York
             </li>
           </ul>
         </div>
@@ -120,7 +124,10 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              prajwal_soni__   prajwal_soni__    prajwal_soni__ 
+              Mobile No.+91 98992 10105                                 
+            </p>
+            <p className="text-center mb-4">
+              Email Us info@caratglitz.com
             </p>
             {subscription ? (
               <motion.p

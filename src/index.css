@@ -45,3 +45,13 @@ nav .active li:nth-child(4) { /* Targeting the fourth child, which corresponds t
   display: none;
 }
 /* ============= NavLink active End here ================ */
+
+/* Changing any instances of red to white */
+.red-text { /* If you have a class with red text */
+  color: white; /* Change red to white */
+}
+
+.some-other-class {
+  /* Other styles here */
+  color: white; /* Replace red with white */
+}

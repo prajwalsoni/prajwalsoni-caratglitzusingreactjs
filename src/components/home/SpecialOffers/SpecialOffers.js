@@ -17,9 +17,9 @@ const SpecialOffers = () => {
         <Product
           _id="1101"
           img={spfOne}
-          productName="Cap for Boys"
-          price="35.00"
-          color="Blank and White"
+          productName="Pendants"
+          price="35000.00"
+          color="Golden"
           badge={true}
           des="prajwalsoni"
         />
@@ -36,29 +36,29 @@ const SpecialOffers = () => {
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
-          price="180.00"
-          color="Gray"
+          productName="MangalSutra"
+          price="18000.00"
+          color="Golden"
           badge={true}
-          des="prajwalson"
+          des="prajwalsoni"
         />
         <Product
           _id="1103"
           img={spfThree}
-          productName="Headphones"
-          price="25.00"
-          color="Mixed"
+          productName="Mangalsutra"
+          price="25000.00"
+          color="Golden"
           badge={true}
-          des="prajwalson"
+          des="prajwalsoni"
         />
         <Product
           _id="1104"
           img={spfFour}
-          productName="Sun glasses"
-          price="220.00"
-          color="Black"
+          productName="Pendant"
+          price="220000.00"
+          color="Golden"
           badge={true}
-          des="prajwalson"
+          des="prajwalsoni"
         />
       </div>
     </div>

@@ -71,14 +71,14 @@ const Contact = () => {
       ) : (
         <form className="pb-20">
           <h1 className="font-titleFont font-semibold text-3xl">
-  Fill up a Form{" "}
-  <a
-    href="https://docs.google.com/forms/d/e/your_form_id/viewform"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    (Google Form)
-  </a>
+            To Contact Us Through Mail {" "}
+            <a
+              href="mailto:prajwalsoni5899@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (Click Here)
+            </a>
 </h1>
 
           {/* <div className="w-[500px] h-auto py-6 flex flex-col gap-6">

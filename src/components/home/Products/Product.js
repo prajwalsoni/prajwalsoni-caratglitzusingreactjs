@@ -53,7 +53,7 @@ const Product = (props) => {
   {props.badge && (
     <button
       style={{
-        backgroundColor: 'red',
+        backgroundColor: 'black',
         padding: '5px 10px',
         borderRadius: '5px',
         border: 'none',

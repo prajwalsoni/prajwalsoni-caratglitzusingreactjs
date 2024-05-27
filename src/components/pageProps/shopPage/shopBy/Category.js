@@ -13,20 +13,20 @@ const Category = () => {
     },
     {
       _id: 991,
-      title: "Gudgets",
+      title: "Rings",
     },
     {
       _id: 992,
-      title: "Accessoris",
+      title: "Pendants",
       icons: true,
     },
     {
       _id: 993,
-      title: "Electronics",
+      title: "Bangles",
     },
     {
       _id: 994,
-      title: "Others",
+      title: "Mangalsutras",
     },
   ];
   return (
