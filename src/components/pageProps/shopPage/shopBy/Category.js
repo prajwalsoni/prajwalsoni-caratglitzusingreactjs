@@ -17,7 +17,7 @@ const Category = () => {
     },
     {
       _id: 992,
-      title: "Accessories",
+      title: "Accessoris",
       icons: true,
     },
     {

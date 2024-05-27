@@ -56,9 +56,9 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
-            price={44.00} 
-            color="Black"
+            productName="Bangles"
+            price={44000.00} 
+            color="Golden"
             badge={true}
             des="prajwal"
           />
@@ -68,9 +68,9 @@ const NewArrivals = () => {
           <Product
             _id="1009"
             img= {download}
-            productName= "Round Table Clock"
-            price="44.00"
-            color= "Black"
+            productName= "Pendants"
+            price="44000.00"
+            color= "Golden"
             badge = {true}
             des= "prajwalsoni"
           />
@@ -79,8 +79,8 @@ const NewArrivals = () => {
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
+            productName="Bangles"
+            price="80000.00"
             color="Mixed"
             badge={true}
             des="prajwal"
@@ -90,8 +90,8 @@ const NewArrivals = () => {
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
+            productName="Ring"
+            price="60000.00"
             color="Mixed"
             badge={false}
             des="prajwal"
@@ -101,7 +101,7 @@ const NewArrivals = () => {
           <Product
             _id="100005"
             img={newArrTwo}
-            productName="Funny toys for babies"
+            productName="Funny1"
             price="60.00"
             color="Mixed"
             badge={false}

@@ -26,9 +26,9 @@ const SpecialOffers = () => {
         <Product
              _id= "2011"
              img= {download}
-             productName= "tolu molu"
-             price= "350.00"
-             color= "Blank and White"
+             productName= "Pendants"
+             price= "35000.00"
+             color= "Golden"
              badge= {true}
              des= "prajwalsoni"
         />

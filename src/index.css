@@ -14,18 +14,18 @@
 
   /* Change color to yellow for Contact */
   .headerSedenavLi:nth-of-type(4) a {
-    color: red !important; /* Add !important to override any conflicting styles */
+    color: cream !important; /* Add !important to override any conflicting styles */
   }
 }
 
 /* ============= NavLink active Start here ============== */
 nav .active li {
-  color: red; /* Set the default color to red */
+  color: cream; /* Set the default color to cream */
   font-weight: 600;
   text-decoration: underline black;
 }
 
-nav .active li:hover { /* Change color to red on hover */
+nav .active li:hover { /* Change color to cream on hover */
   color: black;
 }
 
@@ -35,9 +35,9 @@ nav .active li:nth-child(4) { /* Targeting the fourth child, which corresponds t
 
 @media screen and (max-width: 665px) {
   nav .active li {
-    color: red;
+    color: cream;
     font-weight: 600;
-    text-decoration: 1px underline red;
+    text-decoration: 1px underline cream;
   }
 }
 
